@@ -1,7 +1,7 @@
 ## CLEAN CODE LÀ GÌ?
 Clean code dịch theo nghĩa đen là "mã nguồn sạch". Vậy như thế nào là mã nguồn sạch? Ở bài viết này chúng ta gói gọn trong phạm vi là typescript. Theo góc nhìn của người viết. Để code sạch thì:
 - Tên class, function phải rõ nghĩa, đọc vào là biết nó là gì, làm gì. Ví dụ: Thay vì khai báo 1 class với tên là DetailComponent cho module transaction thì hãy viết TransactionDetailComponent, hay function get(id:number) có thể thay thế thành getById(id:number)
-- Phải phân biết rõ ràng việc mình làm là reuse code hay mang cả thế giới bỏ vào 1 file, giữ cho mọi thứ thật đơn giản. Ví dụ: 
+- Phải phân biệt rõ ràng việc mình làm là reuse code hay mang cả thế giới bỏ vào 1 file, giữ cho mọi thứ thật đơn giản. Ví dụ: 
 ```typescript
 function submit():void{
   if(this.form.invalid){
